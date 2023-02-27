@@ -1,0 +1,6 @@
+<map id="Gnuplot::plotfile_xy_err" name="Gnuplot::plotfile_xy_err">
+<area shape="rect" id="node1" title="Plota pares x,y com barra de erro dy a partir de um arquivo." alt="" coords="484,31,639,57"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a3dd3934b09094a9ba48035a2edf4d4fd" title="Plota pares x,y com barra de erro dy a partir de vetores." alt="" coords="275,5,414,32"/>
+<area shape="rect" id="node4" href="$class_gnuplot.html#abe9f9f5301c1dcc35acecbf854623085" title="Plota pares x,y com barra de erro dy a partir de um arquivo." alt="" coords="253,56,436,83"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#ac19dffd0bd609bb8de3cc29250d9f4dd" title="Plota pares x,y com barra de erro dy a partir de vetores." alt="" coords="5,5,205,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Gnuplot::PlotFile" name="Gnuplot::PlotFile">
+<area shape="rect" id="node1" title="Plota pares x,y a partir de um arquivo de disco." alt="" coords="5,31,124,57"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#af226f395310d3c5c4f8b4d2aaf5d8823" title="Plota pares x,y a partir de um arquivo de disco." alt="" coords="172,31,305,57"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="370,5,470,32"/>
+<area shape="rect" id="node4" href="$class_gnuplot.html#abc0f1d75cb78804a5b8efdfa4df582cd" title="Checa se o arquivo existe." alt="" coords="353,56,487,83"/>
+</map>

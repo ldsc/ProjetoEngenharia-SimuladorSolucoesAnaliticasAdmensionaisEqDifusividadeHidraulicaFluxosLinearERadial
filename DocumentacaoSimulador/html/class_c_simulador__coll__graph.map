@@ -1,0 +1,12 @@
+<map id="CSimulador" name="CSimulador">
+<area shape="rect" id="node1" title="Criacao da classe CSimulador.h." alt="" coords="804,133,893,160"/>
+<area shape="rect" id="node2" href="$class_c_geometria_reservatorio.html" title="Criacao da classe CGeometriaReservatorio.h." alt="" coords="5,160,168,187"/>
+<area shape="rect" id="node4" href="$class_c_reservatorio_radial_infinito.html" title="Criacao da classe CReservatorioRadialInfinito.h." alt="" coords="235,59,409,85"/>
+<area shape="rect" id="node5" href="$class_c_reservatorio_radial_selado.html" title="Criacao da classe CReservatorioRadialSelado.h." alt="" coords="233,109,411,136"/>
+<area shape="rect" id="node6" href="$class_c_reservatorio_radial_manutencao.html" title="Criacao da classe CReservatorioRadialManutencao.h." alt="" coords="217,160,427,187"/>
+<area shape="rect" id="node7" href="$class_c_reservatorio_linear_infinito.html" title=" " alt="" coords="235,211,409,237"/>
+<area shape="rect" id="node8" href="$class_c_reservatorio_linear_selado.html" title="Criacao da classe CReservatorioLinearSelado.h." alt="" coords="233,261,411,288"/>
+<area shape="rect" id="node9" href="$class_c_reservatorio_linear_manutencao.html" title="Criacao da classe CReservatorioLinearManutencao.h." alt="" coords="218,312,426,339"/>
+<area shape="rect" id="node3" href="$class_c_inv_num_stehfest.html" title="Criacao da classe CInvNumStehfest.h." alt="" coords="581,160,703,187"/>
+<area shape="rect" id="node10" href="$class_gnuplot.html" title="Classe de interface para acesso ao programa gnuplot." alt="" coords="609,237,675,264"/>
+</map>

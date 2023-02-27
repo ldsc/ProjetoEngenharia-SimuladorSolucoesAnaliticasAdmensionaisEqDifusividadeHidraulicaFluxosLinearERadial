@@ -1,0 +1,4 @@
+<map id="Gnuplot::showonscreen" name="Gnuplot::showonscreen">
+<area shape="rect" id="node1" title="Mostrar na tela ou escrever no arquivo, seta o tipo de terminal para terminal_std." alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="212,5,312,32"/>
+</map>

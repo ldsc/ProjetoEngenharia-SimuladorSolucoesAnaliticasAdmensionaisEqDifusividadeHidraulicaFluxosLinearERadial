@@ -1,0 +1,26 @@
+<map id="CSimulador::Plot" name="CSimulador::Plot">
+<area shape="rect" id="node1" title=" " alt="" coords="5,411,125,437"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#aba6c206ff95d6d7377627f8545ca62c1" title="Ativa/Desativa o grid (padrao = desativado)." alt="" coords="423,56,521,83"/>
+<area shape="rect" id="node6" href="$class_gnuplot.html#a2b9ba1e2d6babf020158c042eefdff76" title="Ativa/Desativa a legenda (a legenda é setada por padrao)." alt="" coords="197,132,315,159"/>
+<area shape="rect" id="node8" href="$class_gnuplot.html#a777b6a5474951d6d023dff4237d80a2b" title="Plota pares x,y a partir de vetores." alt="" coords="197,208,315,235"/>
+<area shape="rect" id="node12" href="$class_gnuplot.html#a032072c7c01b508a7535a17fb08562b1" title="Salva sessao do gnuplot para um arquivo postscript, informe o nome do arquivo sem extensao...." alt="" coords="193,309,319,336"/>
+<area shape="rect" id="node15" href="$class_gnuplot.html#a58808028aec03a22b5c19693b14baeef" title="Seta o rotulo (nome) do eixo x." alt="" coords="617,360,752,387"/>
+<area shape="rect" id="node16" href="$class_gnuplot.html#aff546fad227d93babeb5d2cc9f047b89" title="Ativa escala logaritma do eixo x (logscale nao e setado por default)." alt="" coords="607,411,762,437"/>
+<area shape="rect" id="node17" href="$class_gnuplot.html#a7654b86e3873aec4c5101abb466fe4ab" title="Seta o rotulo (nome) do eixo y." alt="" coords="617,461,752,488"/>
+<area shape="rect" id="node18" href="$class_gnuplot.html#af621a43664a07523f098ffc3fb5a99b0" title="Seta intervalo do eixo y." alt="" coords="187,512,325,539"/>
+<area shape="rect" id="node19" href="$class_gnuplot.html#aada22f547a0a9ac26adea4a4ec836ea4" title="Mostrar na tela ou escrever no arquivo, seta o tipo de terminal para terminal_std." alt="" coords="173,563,339,589"/>
+<area shape="rect" id="node21" href="$class_gnuplot.html#a4039b0fdcf0e3fbf97dac187825138fb" title="Opcional: Seta terminal padrao (standart), usado para visualizacao dos graficos. Para retornar para t..." alt="" coords="194,613,318,640"/>
+<area shape="rect" id="node23" href="$class_gnuplot.html#a83804130dca9267a667220852eb1a181" title="Ativa/Desativa o titulo da secao do gnuplot." alt="" coords="207,664,305,691"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a4b7245b12dad1c0ef326e5f59eb83001" title="Ativa o grid (padrao = desativado)." alt="" coords="624,5,745,32"/>
+<area shape="rect" id="node5" href="$class_gnuplot.html#a8b9a16d5793c3f4939b917b2c263860c" title="Desativa o grid (padrao = desativado)." alt="" coords="617,56,752,83"/>
+<area shape="rect" id="node4" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="812,335,912,361"/>
+<area shape="rect" id="node7" href="$class_gnuplot.html#ad64a717dac18167f656c4f09239973f8" title="Ativa a legenda (a legenda é setada por padrao). Posicao: inside/outside, left/center/right,..." alt="" coords="403,107,541,133"/>
+<area shape="rect" id="node9" href="$class_gnuplot.html#a8ced9e766e0677b938178dafe9264ff7" title="Cria arquivo temporario." alt="" coords="394,157,550,184"/>
+<area shape="rect" id="node10" href="$class_gnuplot.html#af226f395310d3c5c4f8b4d2aaf5d8823" title="Plota pares x,y a partir de um arquivo de disco." alt="" coords="405,208,539,235"/>
+<area shape="rect" id="node11" href="$class_gnuplot.html#abc0f1d75cb78804a5b8efdfa4df582cd" title="Checa se o arquivo existe." alt="" coords="618,208,751,235"/>
+<area shape="rect" id="node13" href="$class_gnuplot.html#afbe378ac601c83c406eed0ca51d75504" title=" " alt="" coords="416,309,528,336"/>
+<area shape="rect" id="node14" href="$class_gnuplot.html#ae4f110479cfd8dc9b1b3d45809fb05e0" title=" " alt="" coords="631,309,738,336"/>
+<area shape="rect" id="node20" href="$class_gnuplot.html#a356d2faaa79f08d13fec9718b776b28d" title="Mostrar na tela ou escrever no arquivo, seta o tipo de terminal para terminal_std." alt="" coords="605,563,764,589"/>
+<area shape="rect" id="node22" href="$class_gnuplot.html#a21feba7a3916708b742c3dc25850ab2f" title="Opcional: Seta terminal padrao (standart), usado para visualizacao dos graficos. Valores padroes (def..." alt="" coords="387,613,557,640"/>
+<area shape="rect" id="node24" href="$class_gnuplot.html#aa693e806a115af1e2776a15078e75b46" title="Ativa o titulo da secao do gnuplot." alt="" coords="411,664,533,691"/>
+</map>

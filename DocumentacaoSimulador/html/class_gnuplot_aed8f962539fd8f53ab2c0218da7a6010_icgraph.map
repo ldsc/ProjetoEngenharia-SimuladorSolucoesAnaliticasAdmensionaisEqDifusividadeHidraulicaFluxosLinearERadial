@@ -1,0 +1,4 @@
+<map id="Gnuplot::unset_xlogscale" name="Gnuplot::unset_xlogscale">
+<area shape="rect" id="node1" title="Desativa escala logaritma do eixo x (logscale nao e setado por default)." alt="" coords="188,5,357,32"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a1c713ae32678d4ada2b170bf774f8f8c" title="Ativa/Desativa escala logaritma do eixo x (logscale nao e setado por default)." alt="" coords="5,5,140,32"/>
+</map>

@@ -1,0 +1,58 @@
+# Project: SimuladorEDH
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = CGeometriaReservatorio.o CGnuplot.o CInvNumStehfest.o CReservatorioLinearInfinito.o CReservatorioLinearManutencao.o CReservatorioLinearSelado.o CReservatorioRadialInfinito.o CReservatorioRadialManutencao.o CReservatorioRadialSelado.o CSimulador.o main.o
+LINKOBJ  = CGeometriaReservatorio.o CGnuplot.o CInvNumStehfest.o CReservatorioLinearInfinito.o CReservatorioLinearManutencao.o CReservatorioLinearSelado.o CReservatorioRadialInfinito.o CReservatorioRadialManutencao.o CReservatorioRadialSelado.o CSimulador.o main.o
+LIBS     = -L"C:/MinGW/lib" -L"C:/MinGW/x86_64-w64-mingw32/lib" -static-libstdc++ -static-libgcc
+INCS     = -I"C:/MinGW/include" -I"C:/MinGW/x86_64-w64-mingw32/include" -I"C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+CXXINCS  = -I"C:/MinGW/include" -I"C:/MinGW/x86_64-w64-mingw32/include" -I"C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+BIN      = SimuladorEDH.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+CGeometriaReservatorio.o: CGeometriaReservatorio.cpp
+	$(CPP) -c CGeometriaReservatorio.cpp -o CGeometriaReservatorio.o $(CXXFLAGS)
+
+CGnuplot.o: CGnuplot.cpp
+	$(CPP) -c CGnuplot.cpp -o CGnuplot.o $(CXXFLAGS)
+
+CInvNumStehfest.o: CInvNumStehfest.cpp
+	$(CPP) -c CInvNumStehfest.cpp -o CInvNumStehfest.o $(CXXFLAGS)
+
+CReservatorioLinearInfinito.o: CReservatorioLinearInfinito.cpp
+	$(CPP) -c CReservatorioLinearInfinito.cpp -o CReservatorioLinearInfinito.o $(CXXFLAGS)
+
+CReservatorioLinearManutencao.o: CReservatorioLinearManutencao.cpp
+	$(CPP) -c CReservatorioLinearManutencao.cpp -o CReservatorioLinearManutencao.o $(CXXFLAGS)
+
+CReservatorioLinearSelado.o: CReservatorioLinearSelado.cpp
+	$(CPP) -c CReservatorioLinearSelado.cpp -o CReservatorioLinearSelado.o $(CXXFLAGS)
+
+CReservatorioRadialInfinito.o: CReservatorioRadialInfinito.cpp
+	$(CPP) -c CReservatorioRadialInfinito.cpp -o CReservatorioRadialInfinito.o $(CXXFLAGS)
+
+CReservatorioRadialManutencao.o: CReservatorioRadialManutencao.cpp
+	$(CPP) -c CReservatorioRadialManutencao.cpp -o CReservatorioRadialManutencao.o $(CXXFLAGS)
+
+CReservatorioRadialSelado.o: CReservatorioRadialSelado.cpp
+	$(CPP) -c CReservatorioRadialSelado.cpp -o CReservatorioRadialSelado.o $(CXXFLAGS)
+
+CSimulador.o: CSimulador.cpp
+	$(CPP) -c CSimulador.cpp -o CSimulador.o $(CXXFLAGS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)

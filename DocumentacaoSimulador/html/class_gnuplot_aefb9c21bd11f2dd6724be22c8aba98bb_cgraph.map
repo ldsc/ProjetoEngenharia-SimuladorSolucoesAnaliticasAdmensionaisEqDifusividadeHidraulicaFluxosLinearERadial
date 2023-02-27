@@ -1,0 +1,5 @@
+<map id="Gnuplot::XLabel" name="Gnuplot::XLabel">
+<area shape="rect" id="node1" title="Seta o rotulo (nome) do eixo x." alt="" coords="5,5,119,32"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a58808028aec03a22b5c19693b14baeef" title="Seta o rotulo (nome) do eixo x." alt="" coords="167,5,301,32"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="349,5,449,32"/>
+</map>

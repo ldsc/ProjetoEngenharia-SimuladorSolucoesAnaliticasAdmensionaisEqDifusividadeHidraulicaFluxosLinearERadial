@@ -1,0 +1,7 @@
+<map id="Gnuplot::SaveTo" name="Gnuplot::SaveTo">
+<area shape="rect" id="node1" title="Salva sessao do gnuplot para um arquivo filename, usando o terminal_type e algum flag adicional Ex: g..." alt="" coords="379,31,496,57"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a0808fae92ce7e38af3bed8897748acf0" title="Salva sessao do gnuplot para um arquivo jpg, nome do arquivo sem extensao Depois retorna para modo te..." alt="" coords="195,5,331,32"/>
+<area shape="rect" id="node4" href="$class_gnuplot.html#a14c986c74017988acd306f42005c0fb7" title="Salva sessao do gnuplot para um arquivo png, nome do arquivo sem extensao Depois retorna para modo te..." alt="" coords="196,56,329,83"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a190d66f0efa9cf3a90633543f5a59328" title="Salva sessao do gnuplot para um arquivo jpg, nome do arquivo sem extensao Depois retorna para modo te..." alt="" coords="5,5,147,32"/>
+<area shape="rect" id="node5" href="$class_gnuplot.html#aaa38f9e689fca36da83a660f4b9cf36b" title="Salva sessao do gnuplot para um arquivo png, nome do arquivo sem extensao Depois retorna para modo te..." alt="" coords="7,56,145,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Gnuplot::ZLabel" name="Gnuplot::ZLabel">
+<area shape="rect" id="node1" title="Seta o rotulo (nome) do eixo z." alt="" coords="5,5,119,32"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#ab3206e715d20f05cc0dd1eec89ce8b07" title="Seta o rotulo (nome) do eixo z." alt="" coords="167,5,301,32"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="349,5,449,32"/>
+</map>

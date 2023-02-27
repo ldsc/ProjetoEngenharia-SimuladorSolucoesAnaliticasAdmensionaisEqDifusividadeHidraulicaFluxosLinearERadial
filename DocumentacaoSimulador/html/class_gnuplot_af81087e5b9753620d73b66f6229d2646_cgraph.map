@@ -1,0 +1,5 @@
+<map id="Gnuplot::PointSize" name="Gnuplot::PointSize">
+<area shape="rect" id="node1" title="Escala o tamanho do ponto usado na plotagem." alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a95ec1636a871447dfe99463b769339c7" title="Desativa suavizacao." alt="" coords="184,5,336,32"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="384,5,484,32"/>
+</map>

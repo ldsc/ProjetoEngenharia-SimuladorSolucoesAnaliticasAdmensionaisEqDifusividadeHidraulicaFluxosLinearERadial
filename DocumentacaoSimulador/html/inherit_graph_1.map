@@ -1,0 +1,9 @@
+<map id="Gráfico de Hierarquia de Classes" name="Gráfico de Hierarquia de Classes">
+<area shape="rect" id="node1" href="$class_c_geometria_reservatorio.html" title="Criacao da classe CGeometriaReservatorio.h." alt="" coords="5,132,168,159"/>
+<area shape="rect" id="node2" href="$class_c_reservatorio_linear_infinito.html" title=" " alt="" coords="233,5,408,32"/>
+<area shape="rect" id="node3" href="$class_c_reservatorio_linear_manutencao.html" title="Criacao da classe CReservatorioLinearManutencao.h." alt="" coords="217,56,425,83"/>
+<area shape="rect" id="node4" href="$class_c_reservatorio_linear_selado.html" title="Criacao da classe CReservatorioLinearSelado.h." alt="" coords="232,107,409,133"/>
+<area shape="rect" id="node5" href="$class_c_reservatorio_radial_infinito.html" title="Criacao da classe CReservatorioRadialInfinito.h." alt="" coords="233,157,408,184"/>
+<area shape="rect" id="node6" href="$class_c_reservatorio_radial_manutencao.html" title="Criacao da classe CReservatorioRadialManutencao.h." alt="" coords="216,208,425,235"/>
+<area shape="rect" id="node7" href="$class_c_reservatorio_radial_selado.html" title="Criacao da classe CReservatorioRadialSelado.h." alt="" coords="231,259,410,285"/>
+</map>

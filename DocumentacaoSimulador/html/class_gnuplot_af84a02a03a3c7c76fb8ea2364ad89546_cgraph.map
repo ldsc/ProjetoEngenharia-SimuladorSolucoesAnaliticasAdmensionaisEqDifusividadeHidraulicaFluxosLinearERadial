@@ -1,0 +1,5 @@
+<map id="Gnuplot::YAutoscale" name="Gnuplot::YAutoscale">
+<area shape="rect" id="node1" title="Seta escalonamento automatico do eixo y (default)." alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a3cc19dba32bb2d3ac59494ae1493faa7" title="Seta escalonamento automatico do eixo y (default)." alt="" coords="196,5,359,32"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="407,5,507,32"/>
+</map>

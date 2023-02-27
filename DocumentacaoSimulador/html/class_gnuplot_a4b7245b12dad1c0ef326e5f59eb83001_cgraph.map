@@ -1,0 +1,4 @@
+<map id="Gnuplot::set_grid" name="Gnuplot::set_grid">
+<area shape="rect" id="node1" title="Ativa o grid (padrao = desativado)." alt="" coords="5,5,127,32"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="175,5,275,32"/>
+</map>

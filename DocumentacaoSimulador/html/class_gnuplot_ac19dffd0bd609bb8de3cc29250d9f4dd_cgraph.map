@@ -1,0 +1,8 @@
+<map id="Gnuplot::PlotVectorXYErrorBar" name="Gnuplot::PlotVectorXYErrorBar">
+<area shape="rect" id="node1" title="Plota pares x,y com barra de erro dy a partir de vetores." alt="" coords="5,31,205,57"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a3dd3934b09094a9ba48035a2edf4d4fd" title="Plota pares x,y com barra de erro dy a partir de vetores." alt="" coords="253,31,392,57"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a8ced9e766e0677b938178dafe9264ff7" title="Cria arquivo temporario." alt="" coords="440,5,596,32"/>
+<area shape="rect" id="node4" href="$class_gnuplot.html#a33ab4bb031fa6a6b798c90a9089648e9" title="Plota pares x,y com barra de erro dy a partir de um arquivo." alt="" coords="441,56,595,83"/>
+<area shape="rect" id="node5" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="661,31,761,57"/>
+<area shape="rect" id="node6" href="$class_gnuplot.html#abc0f1d75cb78804a5b8efdfa4df582cd" title="Checa se o arquivo existe." alt="" coords="644,81,777,108"/>
+</map>

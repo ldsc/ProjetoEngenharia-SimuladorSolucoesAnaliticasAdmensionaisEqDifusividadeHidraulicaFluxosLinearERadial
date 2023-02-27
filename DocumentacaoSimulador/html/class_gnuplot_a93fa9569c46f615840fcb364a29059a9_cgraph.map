@@ -1,0 +1,6 @@
+<map id="Gnuplot::PlotImage" name="Gnuplot::PlotImage">
+<area shape="rect" id="node1" title="Plota uma imagem." alt="" coords="5,31,139,57"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#ab71117b8fa74d53ea20c313717d86b5c" title="Plota uma imagem." alt="" coords="187,31,325,57"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="401,5,501,32"/>
+<area shape="rect" id="node4" href="$class_gnuplot.html#a8ced9e766e0677b938178dafe9264ff7" title="Cria arquivo temporario." alt="" coords="373,56,529,83"/>
+</map>

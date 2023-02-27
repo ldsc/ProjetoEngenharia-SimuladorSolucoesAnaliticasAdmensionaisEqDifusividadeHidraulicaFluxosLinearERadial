@@ -1,0 +1,760 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+%\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+%\usepackage {helvet}
+%\renewcommand {\familydefault}{\sfdefault}
+
+% Para uso de listagens de código
+\usepackage{color}
+\definecolor{azulclaro}{rgb}{0.6,1,1}%   rgb color model
+% Informa que vai usar o pacote listings, 
+% disponibilizado em /usr/share/texmf/doc/latex/styles/listings.dvi
+\usepackage{listings}
+\end_preamble
+\use_default_options false
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package auto
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style apalike
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Elaboração}  
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Elaboração
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Elaboração
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Elaboração"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Depois da definição dos objetivos, da especificação do software e da montagem
+ dos primeiros diagramas de caso de uso, a equipe de desenvolvimento do
+ projeto de engenharia passa por um processo de elaboração que envolve o
+ estudo de conceitos relacionados ao sistema a ser desenvolvido, a análise
+ de domínio e a identificação de pacotes.
+ 
+\end_layout
+
+\begin_layout Standard
+Na elaboração fazemos uma análise dos requisitos, ajustando os requisitos
+ iniciais de forma a desenvolver um sistema útil, que atenda às necessidades
+ do usuário e, na medida do possível, permita seu reuso e futura extensão.
+\end_layout
+
+\begin_layout Standard
+Eliminam-se os requisitos "impossíveis" e ajusta-se a idéia do sistema de
+ forma que este seja flexível, considerando-se aspectos como custos e prazos.
+\end_layout
+
+\begin_layout Section
+Análise de domínio
+\end_layout
+
+\begin_layout Standard
+Após estudo dos requisitos/especificações do sistema, estudos de referências
+ e disciplinas do curso foi possível identificar nosso domínio de trabalho:
+\end_layout
+
+\begin_layout Itemize
+Engenharia de Reservatórios: é a espinha dorsal na qual esse projeto se
+ sustenta.
+ O software aqui desenvolvido, utiliza conceitos como a Equação de Conservação
+ da Massa, a Lei de Darcy, compressibilidade da rocha e fluido, dentre outros.
+ O software irá aplicar todos esses conceitos na resolução da Equação da
+ Difusividade Hidráulica de acordo com a geometria do reservatório e do
+ regime de fluxo escolhido.
+\end_layout
+
+\begin_layout Itemize
+Modelagem Numérica Computacional: utiliza conceitos matemáticos de Cálculo
+ Numérico.
+ Neste software serão utilizados por exemplo, a Transformada de Laplace,
+ o Algoritmo de Stehfest e as Funções de Bessel Modificadas de 1ª ordem
+ e 2ª ordem.
+\end_layout
+
+\begin_layout Itemize
+Pacote Gráfico: usar-se-á um pacote gráfico para a geração de gráficos de
+ diferentes soluções que resolvam o problema apresentado.
+\end_layout
+
+\begin_layout Itemize
+Software: Serão utilizadas classes e bibliotecas já existentes para a resolução
+ da EDH por meio da transformada de Laplace e das Funções de Bessel.
+\end_layout
+
+\begin_layout Section
+Formulação teórica
+\end_layout
+
+\begin_layout Standard
+Nesta seção consta a formulação física-matemática, as equações envolvidas,
+ dentre outras propriedades desejadas utilizadas no software desenvolvido.
+ 
+\end_layout
+
+\begin_layout Subsection
+Lei de Darcy
+\end_layout
+
+\begin_layout Standard
+O programa envolve conceitos de diversas áreas da engenharia e matemática.
+ O princí- pio para o estudo de fluxo em meios porosos é baseado nos resultados
+ experimentais de Henry Darcy.
+ A análise destes resultados permitiu a Darcy formular a lei que se tornaria
+ a base para a compreensão do fluxo em meios porosos.
+\end_layout
+
+\begin_layout Standard
+A lei de Darcy foi generalizada para todos os fluidos, e é apresentada em
+ forma diferencial:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+v_{x}=-\frac{k}{\mu}\frac{dp}{dx}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Princípio de Conservação de Massa
+\end_layout
+
+\begin_layout Standard
+O princípio da conservação de massa é representado matematicamente através
+ da equação da continuidade.
+ Considerando-se fluxo horizontal através de um volume de controle arbitrário
+ 
+\begin_inset Formula $V$
+\end_inset
+
+ composto pelo somatório de diversos elementos de superfície 
+\begin_inset Formula $\Delta A$
+\end_inset
+
+, a variação de massa no elemento é igual à diferença entre as quantidades
+ que entram e saem do volume de controle como mostrado abaixo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/Volume de controle.JPG
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Volume de controle arbitrário no domínio de fluxo (Adaptado:
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lake1989enhanced"
+literal "false"
+
+\end_inset
+
+)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Volume de Controle"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituindo o termo da velocidade da Equação de Darcy 
+\begin_inset Formula $v_{x}$
+\end_inset
+
+, a equação de conservação da massa se dá por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial x}\bigg(\rho-\frac{k}{\mu}\frac{dp}{dx}\bigg)+\frac{\partial}{\partial y}\bigg(\rho-\frac{k}{\mu}\frac{dp}{dy}\bigg)+\frac{\partial}{\partial z}\bigg(\rho-\frac{k}{\mu}\frac{dp}{dz}\bigg)=-\frac{\partial}{\partial t}(\phi\rho)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Equação da Difusividade Hidráulica
+\end_layout
+
+\begin_layout Standard
+A equação da difusividade relaciona o comportamento da pressão no interior
+ do reservatório com o tempo e é função da porosidade da rocha, viscosidade
+ do fluido, compressibilidade total do sistema e da permeabilidade relativa
+ ao fluido em consideração.
+\end_layout
+
+\begin_layout Standard
+A equação da difusividade hidráulica, como é utilizada na engenharia de
+ reservatórios, é obtida a partir da associação de três equações básicas:
+ a equação da continuidade, que é uma equação da conservação da massa, a
+ lei de Darcy, que é uma equação de transporte de massa, e uma equação de
+ estado que tanto pode ser uma lei dos gases como a equação da compressibilidade
+ para o caso dos líquidos (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rosa2006engenharia"
+literal "false"
+
+\end_inset
+
+; 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ahmed1989hydrocarbon"
+literal "false"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+Na formulação desta equação serão admitidas algumas hipóteses:
+\end_layout
+
+\begin_layout Itemize
+Fluxo estritamente horizontal;
+\end_layout
+
+\begin_layout Itemize
+Meio poroso homogêneo de espessura constante;
+\end_layout
+
+\begin_layout Itemize
+Fluxo monofásico;
+\end_layout
+
+\begin_layout Itemize
+Uma única fase saturando o meio poroso;
+\end_layout
+
+\begin_layout Itemize
+Sem reações químicas e sem absorção;
+\end_layout
+
+\begin_layout Itemize
+Um único componente;
+\end_layout
+
+\begin_layout Itemize
+Fluxo isotérmico;
+\end_layout
+
+\begin_layout Itemize
+Viscosidade constante;
+\end_layout
+
+\begin_layout Itemize
+Vazão constante;
+\end_layout
+
+\begin_layout Itemize
+Fluido e rocha de compressibilidade pequena e constante;
+\end_layout
+
+\begin_layout Itemize
+Pequenos gradientes de pressão.
+\end_layout
+
+\begin_layout Subsubsection
+Fluxo Linear
+\end_layout
+
+\begin_layout Standard
+Para um sistema de fluxo linear, ou seja, quando há apenas fluxo na direção
+ 
+\begin_inset Formula $x$
+\end_inset
+
+, por exemplo, os termos referentes às direções 
+\begin_inset Formula $y$
+\end_inset
+
+ e 
+\begin_inset Formula $z$
+\end_inset
+
+ são iguais a zero e a equação da difusividade se dá por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial^{2}p}{\partial x^{2}}=-\frac{1}{\eta}\frac{\partial p}{\partial t}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\begin_inset Formula $\eta=\frac{k}{\phi\mu c_{t}}$
+\end_inset
+
+ e é conhecida como a 
+\emph on
+constante de difusividade hidráulica.
+\end_layout
+
+\begin_layout Standard
+A partir desta forma reduzida serão desenvolvidas as soluções para os regimes
+ de fluxo representados a seguir na forma adimensional:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+p_{D}(t_{D})=\sqrt{\frac{4t_{D}}{\pi}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Regime Transiente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+p_{D}(x_{D})=x_{D}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Regime Permanente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+p_{D}(x_{D})=x_{D}-\frac{x_{D}^{2}}{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Regime Pseudopermanente
+\end_layout
+
+\begin_layout Subsubsection
+Fluxo Radial
+\end_layout
+
+\begin_layout Standard
+Para um sistema com fluxo radial, em coordenadas cilíndricas, a equação
+ da difusividade é escrita da seguinte forma:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{1}{r}\frac{\partial p}{\partial r}+\frac{\partial^{2}p}{\partial r^{2}}+\frac{1}{r^{2}}\bigg(\frac{\partial^{2}p}{\partial\theta^{2}}\bigg)+\frac{\partial^{2}p}{\partial z^{2}}=\frac{\phi\mu c_{t}}{k}\frac{\partial p}{\partial t}
+\end{equation}
+
+\end_inset
+
+Como neste trabalho o fluxo é restrito apenas à direção 
+\begin_inset Formula $r$
+\end_inset
+
+ a Eq.
+ 3.7 se reduz à expressão: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{1}{r}\frac{\partial p}{\partial r}+\frac{\partial^{2}p}{\partial r^{2}}=\frac{\phi\mu c_{t}}{k}\frac{\partial p}{\partial t}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A partir dessas equações serão calculadas as soluções para os três tipos
+ de fluxo utilizando-se do conceito de transformada de Laplace para resolver
+ a equação da difusividade.
+ Como as soluções são obtidas analiticamente apenas no campo de Laplace,
+ é necessário um algoritmo de inversão numérica para se obter o comportamento
+ da queda de pressão adimensional 
+\begin_inset Formula $p_{D}$
+\end_inset
+
+ em função de 
+\begin_inset Formula $r_{D}$
+\end_inset
+
+ e 
+\begin_inset Formula $t_{D}$
+\end_inset
+
+ .
+ Um algoritmo normalmente utilizado para tal inversão é o algoritmo de Stehfest
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "stehfest1970algorithm"
+literal "false"
+
+\end_inset
+
+.
+ A seguir as soluções adimensionais para o fluxo radial no campo de Laplace:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overline{p_{D}}(r_{D},u)=\frac{K_{0}(r_{D}\sqrt{u})}{u^{3/2}K_{1}(\sqrt{u})}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Regime Transiente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overline{p_{D}}(r_{D},u)=\frac{I_{0}(r_{eD}\sqrt{u})K_{0}(r_{D}\sqrt{u})-K_{0}(r_{eD}\sqrt{u})I_{0}(r_{D}\sqrt{u})}{u^{3/2}[I_{0}(r_{eD}\sqrt{u})K_{1}(\sqrt{u})+I_{1}(\sqrt{u})K_{0}(r_{eD}\sqrt{u})]}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Regime Permanente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overline{p_{D}}(r_{D},u)=\frac{I_{1}(r_{eD}\sqrt{u})K_{0}(r_{D}\sqrt{u})+K_{1}(r_{eD}\sqrt{u})I_{0}(r_{D}\sqrt{u})}{u^{3/2}[I_{1}(r_{eD}\sqrt{u})K_{1}(\sqrt{u})-I_{1}(\sqrt{u})K_{1}(r_{eD}\sqrt{u})]}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Regime Pseudopermanente
+\end_layout
+
+\begin_layout Standard
+As soluções apresentadas são escritas em termos das funções de Bessel modicadas
+ de primeira espécie, 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+ e 
+\begin_inset Formula $I_{1}$
+\end_inset
+
+, e de segunda espécie, 
+\begin_inset Formula $K_{0}$
+\end_inset
+
+ e 
+\begin_inset Formula $K_{1}$
+\end_inset
+
+ , de ordens zero e um, respectivamente, e onde 
+\begin_inset Formula $u$
+\end_inset
+
+ é a variável de Laplace.
+ Após a aplicação do algoritmo de Stehfest, as soluções serão apresentadas
+ de forma gráfica.
+\end_layout
+
+\begin_layout Section
+Identificação de pacotes – assuntos
+\end_layout
+
+\begin_layout Standard
+.Engenharia de Reservatórios: Esse pacote recebe os parâmetros do usuário
+ (
+\begin_inset Formula $p_{D,}r_{D,}t_{D,}r_{eD}$
+\end_inset
+
+) ou lê do disco.
+\end_layout
+
+\begin_layout Itemize
+Modelagem Numérica Computacional: Contém os algoritmos matemáticos necessários
+ para a solução dos modelos de reservatório.
+ Este pacote contém os algoritmos: Transformada de Laplace, Algoritmo de
+ Inversão Numérica de Stehfest e Funções de Bessel.
+ Este pacote permite ter uma maior reusabilidade do código, assim, estando
+ separados, é possível aplicar este mesmo pacote para outros problemas de
+ engenharia, como por exemplo o de análise de teste de pressão.
+ 
+\end_layout
+
+\begin_layout Itemize
+Gráfico: Aqui se encontra a biblioteca do Gnuplot, necessária para a geração
+ dos gráficos das soluções para cada reservatório.
+\end_layout
+
+\begin_layout Itemize
+Biblioteca: Dentre as bibliotecas utilizadas, estarão as bibliotecas padrão
+ de C++ (STL) e bibliotecas como a iostream, iomanip, etc.
+ e a biblioteca GSL que fornecerá a base para as componentes do NCP.
+\end_layout
+
+\begin_layout Section
+Diagrama de pacotes – assuntos
+\end_layout
+
+\begin_layout Standard
+A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama-de-Pacotes"
+
+\end_inset
+
+ mostra o diagrama de pacotes do software.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/DiagramaPacotes.JPG
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama de Pacotes
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagrama-de-Pacotes"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

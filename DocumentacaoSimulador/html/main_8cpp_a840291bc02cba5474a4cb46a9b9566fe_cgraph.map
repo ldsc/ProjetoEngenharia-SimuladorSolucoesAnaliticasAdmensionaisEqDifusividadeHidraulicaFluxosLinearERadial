@@ -1,0 +1,46 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,674,56,700"/>
+<area shape="rect" id="node2" href="$class_c_simulador.html#a926d232a6ba99abdfe017b4ed012e72e" title="Funcoes auxiliares para plotar com retorno vazio." alt="" coords="104,674,236,700"/>
+<area shape="rect" id="node3" href="$class_c_simulador.html#aba02a35f4346aa96738ea213262d71b6" title=" " alt="" coords="313,362,433,388"/>
+<area shape="rect" id="node27" href="$class_c_simulador.html#aa6bf8aa96f4c171a7589dd84efae6dda" title=" " alt="" coords="309,412,436,439"/>
+<area shape="rect" id="node28" href="$class_c_simulador.html#a63f41e4cd99bdc5de2447527af1bf455" title=" " alt="" coords="309,514,436,540"/>
+<area shape="rect" id="node29" href="$class_c_simulador.html#a02b9bca878541e9d38b16fa49220b613" title=" " alt="" coords="309,311,436,338"/>
+<area shape="rect" id="node31" href="$class_c_simulador.html#af27576d1e596432c95d1a40bb4c0fdaa" title=" " alt="" coords="309,463,436,490"/>
+<area shape="rect" id="node32" href="$class_c_inv_num_stehfest.html#aa8c9273027c6ebbe9869241f2b00d706" title=" " alt="" coords="284,666,461,708"/>
+<area shape="rect" id="node34" href="$class_c_inv_num_stehfest.html#a46f95c076cd8109bd37adbe6cbaf3127" title=" " alt="" coords="284,732,461,773"/>
+<area shape="rect" id="node36" href="$class_c_inv_num_stehfest.html#acb10996e61ce6e444768dd50211e98ff" title=" " alt="" coords="284,797,461,838"/>
+<area shape="rect" id="node38" href="$class_c_inv_num_stehfest.html#af2efc9175d56e1e70eec6f52100338b9" title=" " alt="" coords="284,928,461,969"/>
+<area shape="rect" id="node41" href="$class_c_inv_num_stehfest.html#afadbe522ebab9a4b2c04e16bfe224312" title=" " alt="" coords="284,862,461,904"/>
+<area shape="rect" id="node43" href="$class_c_inv_num_stehfest.html#aedd3219f02d29ebbc0ac4b2e1fb7863e" title=" " alt="" coords="284,993,461,1034"/>
+<area shape="rect" id="node4" href="$class_gnuplot.html#aba6c206ff95d6d7377627f8545ca62c1" title="Ativa/Desativa o grid (padrao = desativado)." alt="" coords="565,210,663,236"/>
+<area shape="rect" id="node8" href="$class_gnuplot.html#a2b9ba1e2d6babf020158c042eefdff76" title="Ativa/Desativa a legenda (a legenda é setada por padrao)." alt="" coords="555,311,673,338"/>
+<area shape="rect" id="node10" href="$class_gnuplot.html#a777b6a5474951d6d023dff4237d80a2b" title="Plota pares x,y a partir de vetores." alt="" coords="555,362,673,388"/>
+<area shape="rect" id="node14" href="$class_gnuplot.html#a032072c7c01b508a7535a17fb08562b1" title="Salva sessao do gnuplot para um arquivo postscript, informe o nome do arquivo sem extensao...." alt="" coords="551,412,677,439"/>
+<area shape="rect" id="node17" href="$class_gnuplot.html#a58808028aec03a22b5c19693b14baeef" title="Seta o rotulo (nome) do eixo x." alt="" coords="547,463,681,490"/>
+<area shape="rect" id="node18" href="$class_gnuplot.html#aff546fad227d93babeb5d2cc9f047b89" title="Ativa escala logaritma do eixo x (logscale nao e setado por default)." alt="" coords="537,159,691,186"/>
+<area shape="rect" id="node19" href="$class_gnuplot.html#a7654b86e3873aec4c5101abb466fe4ab" title="Seta o rotulo (nome) do eixo y." alt="" coords="547,514,681,540"/>
+<area shape="rect" id="node20" href="$class_gnuplot.html#af621a43664a07523f098ffc3fb5a99b0" title="Seta intervalo do eixo y." alt="" coords="545,108,683,135"/>
+<area shape="rect" id="node21" href="$class_gnuplot.html#aada22f547a0a9ac26adea4a4ec836ea4" title="Mostrar na tela ou escrever no arquivo, seta o tipo de terminal para terminal_std." alt="" coords="531,615,697,642"/>
+<area shape="rect" id="node23" href="$class_gnuplot.html#a4039b0fdcf0e3fbf97dac187825138fb" title="Opcional: Seta terminal padrao (standart), usado para visualizacao dos graficos. Para retornar para t..." alt="" coords="552,564,676,591"/>
+<area shape="rect" id="node25" href="$class_gnuplot.html#a83804130dca9267a667220852eb1a181" title="Ativa/Desativa o titulo da secao do gnuplot." alt="" coords="565,260,663,287"/>
+<area shape="rect" id="node5" href="$class_gnuplot.html#a4b7245b12dad1c0ef326e5f59eb83001" title="Ativa o grid (padrao = desativado)." alt="" coords="1004,210,1125,236"/>
+<area shape="rect" id="node7" href="$class_gnuplot.html#a8b9a16d5793c3f4939b917b2c263860c" title="Desativa o grid (padrao = desativado)." alt="" coords="997,159,1132,186"/>
+<area shape="rect" id="node6" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="1192,311,1292,338"/>
+<area shape="rect" id="node9" href="$class_gnuplot.html#ad64a717dac18167f656c4f09239973f8" title="Ativa a legenda (a legenda é setada por padrao). Posicao: inside/outside, left/center/right,..." alt="" coords="783,311,921,338"/>
+<area shape="rect" id="node11" href="$class_gnuplot.html#a8ced9e766e0677b938178dafe9264ff7" title="Cria arquivo temporario." alt="" coords="774,362,930,388"/>
+<area shape="rect" id="node12" href="$class_gnuplot.html#af226f395310d3c5c4f8b4d2aaf5d8823" title="Plota pares x,y a partir de um arquivo de disco." alt="" coords="785,412,919,439"/>
+<area shape="rect" id="node13" href="$class_gnuplot.html#abc0f1d75cb78804a5b8efdfa4df582cd" title="Checa se o arquivo existe." alt="" coords="998,362,1131,388"/>
+<area shape="rect" id="node15" href="$class_gnuplot.html#afbe378ac601c83c406eed0ca51d75504" title=" " alt="" coords="796,463,908,490"/>
+<area shape="rect" id="node16" href="$class_gnuplot.html#ae4f110479cfd8dc9b1b3d45809fb05e0" title=" " alt="" coords="1011,463,1118,490"/>
+<area shape="rect" id="node22" href="$class_gnuplot.html#a356d2faaa79f08d13fec9718b776b28d" title="Mostrar na tela ou escrever no arquivo, seta o tipo de terminal para terminal_std." alt="" coords="985,691,1144,718"/>
+<area shape="rect" id="node24" href="$class_gnuplot.html#a21feba7a3916708b742c3dc25850ab2f" title="Opcional: Seta terminal padrao (standart), usado para visualizacao dos graficos. Valores padroes (def..." alt="" coords="767,666,937,692"/>
+<area shape="rect" id="node26" href="$class_gnuplot.html#aa693e806a115af1e2776a15078e75b46" title="Ativa o titulo da secao do gnuplot." alt="" coords="791,260,913,287"/>
+<area shape="rect" id="node30" href="$class_gnuplot.html#a726232ac7226b9fc8811eaefa87c902b" title="Seta intervalo do eixo x." alt="" coords="995,7,1134,34"/>
+<area shape="rect" id="node33" href="$class_c_reservatorio_linear_infinito.html#a603a5ce9f51371323e259f4374b053c2" title=" " alt="" coords="527,666,701,708"/>
+<area shape="rect" id="node35" href="$class_c_reservatorio_linear_manutencao.html#af0df6385174d83f4ad0b50cc67813221" title=" " alt="" coords="510,732,718,773"/>
+<area shape="rect" id="node37" href="$class_c_reservatorio_linear_selado.html#a9f21d45fa6eda0297aadf228ae353413" title=" " alt="" coords="525,797,703,838"/>
+<area shape="rect" id="node39" href="$class_c_inv_num_stehfest.html#a251e8da8d7a8711740ad78894a0ab178" title=" " alt="" coords="525,994,703,1020"/>
+<area shape="rect" id="node40" href="$class_c_reservatorio_radial_infinito.html#a70ce6b65529280000621d743fd3bb0f8" title=" " alt="" coords="527,928,701,969"/>
+<area shape="rect" id="node42" href="$class_c_reservatorio_radial_manutencao.html#a19477e7a8c68fb960504642c2ae53bf9" title=" " alt="" coords="509,862,719,904"/>
+<area shape="rect" id="node44" href="$class_c_reservatorio_radial_selado.html#a269109d8c7e45d734c26fb3118d78cf7" title=" " alt="" coords="525,1045,703,1086"/>
+</map>

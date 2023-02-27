@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SimuladorEDH: Código-Fonte de C:/Users/letic/Downloads/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master/src/CInvNumStehfest.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">SimuladorEDH<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Busca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_633e6f36d79360234d5e15b98d9aa5ed.html">ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica-master</a></li><li class="navelem"><a class="el" href="dir_e614f46b106b38bda54318e5db0d3d24.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">CInvNumStehfest.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_c_inv_num_stehfest_8h.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef CInvNumStehfest_H_</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define CInvNumStehfest_H_</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="_c_reservatorio_radial_infinito_8h.html">CReservatorioRadialInfinito.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="_c_reservatorio_radial_selado_8h.html">CReservatorioRadialSelado.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="_c_reservatorio_radial_manutencao_8h.html">CReservatorioRadialManutencao.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="_c_reservatorio_linear_infinito_8h.html">CReservatorioLinearInfinito.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="_c_reservatorio_linear_selado_8h.html">CReservatorioLinearSelado.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="_c_reservatorio_linear_manutencao_8h.html">CReservatorioLinearManutencao.h</a>&quot;</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_c_inv_num_stehfest.html">   14</a></span><span class="keyword">class </span><a class="code hl_class" href="class_c_inv_num_stehfest.html">CInvNumStehfest</a></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_c_inv_num_stehfest.html#a5cb3e03dcbe6fc912c9683ee18f701a3">   20</a></span>        <span class="keywordtype">double</span> <a class="code hl_variable" href="class_c_inv_num_stehfest.html#acb33dfaa99f9e3b8a14d573a8f4f964a">nn2</a>, <a class="code hl_variable" href="class_c_inv_num_stehfest.html#a3704b7155fb3fd2af1da7f7ad7e80525">nn21</a>, <a class="code hl_variable" href="class_c_inv_num_stehfest.html#a518154af5ae38a85ab562cb679562739">z</a>, <a class="code hl_variable" href="class_c_inv_num_stehfest.html#a44bd0a1560b309184fad2c5951d1a922">ln2_on_t</a>, <a class="code hl_variable" href="class_c_inv_num_stehfest.html#a805361a515bdaaaa2530bf720e49784b">sum</a>, <a class="code hl_variable" href="class_c_inv_num_stehfest.html#a5f3e0d56115e49100450a611a1b5a9d7">p</a>, <a class="code hl_variable" href="class_c_inv_num_stehfest.html#a5cb3e03dcbe6fc912c9683ee18f701a3">ilt</a>, <a class="code hl_variable" href="class_c_inv_num_stehfest.html#a23d310ca62b976408d4c43ae63200b6c">L</a>, <a class="code hl_variable" href="class_c_inv_num_stehfest.html#ae927d91f977e97a9100e9d2f34d56bae">Rd</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_c_inv_num_stehfest.html#a1e4068f20fc6accd6af2efdccbf7814c">   21</a></span>        std::vector &lt;double&gt; <a class="code hl_variable" href="class_c_inv_num_stehfest.html#a1e4068f20fc6accd6af2efdccbf7814c">v</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_c_inv_num_stehfest.html#aaa7c04bbe31e55c6c0093aef0f6f4978">   24</a></span>        <a class="code hl_class" href="class_c_reservatorio_radial_infinito.html">CReservatorioRadialInfinito</a> <a class="code hl_variable" href="class_c_inv_num_stehfest.html#aaa7c04bbe31e55c6c0093aef0f6f4978">radialinfinito</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_c_inv_num_stehfest.html#af1380d91407a0783d5f4e9dc498c5804">   25</a></span>        <a class="code hl_class" href="class_c_reservatorio_radial_selado.html">CReservatorioRadialSelado</a> <a class="code hl_variable" href="class_c_inv_num_stehfest.html#af1380d91407a0783d5f4e9dc498c5804">radialselado</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_c_inv_num_stehfest.html#ac2373c3e446796e131071c43007d76d9">   26</a></span>        <a class="code hl_class" href="class_c_reservatorio_radial_manutencao.html">CReservatorioRadialManutencao</a> <a class="code hl_variable" href="class_c_inv_num_stehfest.html#ac2373c3e446796e131071c43007d76d9">radialmanutencao</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_c_inv_num_stehfest.html#a450cd1780a9011132a6ce230f6300533">   27</a></span>        <a class="code hl_class" href="class_c_reservatorio_linear_infinito.html">CReservatorioLinearInfinito</a> <a class="code hl_variable" href="class_c_inv_num_stehfest.html#a450cd1780a9011132a6ce230f6300533">linearinfinito</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_c_inv_num_stehfest.html#ab2238f8e2d5afef9e0d3c24e877b35f0">   28</a></span>        <a class="code hl_class" href="class_c_reservatorio_linear_selado.html">CReservatorioLinearSelado</a> <a class="code hl_variable" href="class_c_inv_num_stehfest.html#ab2238f8e2d5afef9e0d3c24e877b35f0">linearselado</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_c_inv_num_stehfest.html#a7c757a4bbb9aaf448630b5c2de3abdf9">   29</a></span>        <a class="code hl_class" href="class_c_reservatorio_linear_manutencao.html">CReservatorioLinearManutencao</a> <a class="code hl_variable" href="class_c_inv_num_stehfest.html#a7c757a4bbb9aaf448630b5c2de3abdf9">linearmanutencao</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_c_inv_num_stehfest.html#afff05769c60a9f64e347f0ef1e5036b7">   35</a></span>        <a class="code hl_function" href="class_c_inv_num_stehfest.html#afff05769c60a9f64e347f0ef1e5036b7">CInvNumStehfest</a>(<span class="keywordtype">double</span> _RD = 1, <span class="keywordtype">double</span> _L = 12) : <a class="code hl_variable" href="class_c_inv_num_stehfest.html#a23d310ca62b976408d4c43ae63200b6c">L</a>(_L), <a class="code hl_variable" href="class_c_inv_num_stehfest.html#ae927d91f977e97a9100e9d2f34d56bae">Rd</a>(_RD){};</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordtype">double</span> <a class="code hl_function" href="class_c_inv_num_stehfest.html#a251e8da8d7a8711740ad78894a0ab178">Factorial</a>(<span class="keywordtype">int</span> _i);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordtype">double</span> <a class="code hl_function" href="class_c_inv_num_stehfest.html#af2efc9175d56e1e70eec6f52100338b9">StehfestRadialInfinito</a>(<span class="keywordtype">double</span> _TD);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordtype">double</span> <a class="code hl_function" href="class_c_inv_num_stehfest.html#aedd3219f02d29ebbc0ac4b2e1fb7863e">StehfestRadialSelado</a> (<span class="keywordtype">double</span> _TD, <span class="keywordtype">double</span> _RD);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keywordtype">double</span> <a class="code hl_function" href="class_c_inv_num_stehfest.html#afadbe522ebab9a4b2c04e16bfe224312">StehfestRadialManutencao</a> (<span class="keywordtype">double</span> _TD, <span class="keywordtype">double</span> _RD);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keywordtype">double</span> <a class="code hl_function" href="class_c_inv_num_stehfest.html#aa8c9273027c6ebbe9869241f2b00d706">StehfestLinearInfinito</a> (<span class="keywordtype">double</span> _xd);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="keywordtype">double</span> <a class="code hl_function" href="class_c_inv_num_stehfest.html#acb10996e61ce6e444768dd50211e98ff">StehfestLinearSelado</a> (<span class="keywordtype">double</span> _xd);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <span class="keywordtype">double</span> <a class="code hl_function" href="class_c_inv_num_stehfest.html#a46f95c076cd8109bd37adbe6cbaf3127">StehfestLinearManutencao</a> (<span class="keywordtype">double</span> _xd);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="class_c_inv_num_stehfest.html#a82a4d861c99c398f69fad9c7fb28af00">   89</a></span>        <a class="code hl_function" href="class_c_inv_num_stehfest.html#a82a4d861c99c398f69fad9c7fb28af00">~CInvNumStehfest</a>(){};</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>};</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_c_reservatorio_linear_infinito_8h_html"><div class="ttname"><a href="_c_reservatorio_linear_infinito_8h.html">CReservatorioLinearInfinito.h</a></div></div>
+<div class="ttc" id="a_c_reservatorio_linear_manutencao_8h_html"><div class="ttname"><a href="_c_reservatorio_linear_manutencao_8h.html">CReservatorioLinearManutencao.h</a></div></div>
+<div class="ttc" id="a_c_reservatorio_linear_selado_8h_html"><div class="ttname"><a href="_c_reservatorio_linear_selado_8h.html">CReservatorioLinearSelado.h</a></div></div>
+<div class="ttc" id="a_c_reservatorio_radial_infinito_8h_html"><div class="ttname"><a href="_c_reservatorio_radial_infinito_8h.html">CReservatorioRadialInfinito.h</a></div></div>
+<div class="ttc" id="a_c_reservatorio_radial_manutencao_8h_html"><div class="ttname"><a href="_c_reservatorio_radial_manutencao_8h.html">CReservatorioRadialManutencao.h</a></div></div>
+<div class="ttc" id="a_c_reservatorio_radial_selado_8h_html"><div class="ttname"><a href="_c_reservatorio_radial_selado_8h.html">CReservatorioRadialSelado.h</a></div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html"><div class="ttname"><a href="class_c_inv_num_stehfest.html">CInvNumStehfest</a></div><div class="ttdoc">Criacao da classe CInvNumStehfest.h.</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:15</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a1e4068f20fc6accd6af2efdccbf7814c"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a1e4068f20fc6accd6af2efdccbf7814c">CInvNumStehfest::v</a></div><div class="ttdeci">std::vector&lt; double &gt; v</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:21</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a23d310ca62b976408d4c43ae63200b6c"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a23d310ca62b976408d4c43ae63200b6c">CInvNumStehfest::L</a></div><div class="ttdeci">double L</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:20</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a251e8da8d7a8711740ad78894a0ab178"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a251e8da8d7a8711740ad78894a0ab178">CInvNumStehfest::Factorial</a></div><div class="ttdeci">double Factorial(int _i)</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.cpp:10</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a3704b7155fb3fd2af1da7f7ad7e80525"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a3704b7155fb3fd2af1da7f7ad7e80525">CInvNumStehfest::nn21</a></div><div class="ttdeci">double nn21</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:20</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a44bd0a1560b309184fad2c5951d1a922"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a44bd0a1560b309184fad2c5951d1a922">CInvNumStehfest::ln2_on_t</a></div><div class="ttdeci">double ln2_on_t</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:20</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a450cd1780a9011132a6ce230f6300533"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a450cd1780a9011132a6ce230f6300533">CInvNumStehfest::linearinfinito</a></div><div class="ttdeci">CReservatorioLinearInfinito linearinfinito</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:27</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a46f95c076cd8109bd37adbe6cbaf3127"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a46f95c076cd8109bd37adbe6cbaf3127">CInvNumStehfest::StehfestLinearManutencao</a></div><div class="ttdeci">double StehfestLinearManutencao(double _xd)</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.cpp:119</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a518154af5ae38a85ab562cb679562739"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a518154af5ae38a85ab562cb679562739">CInvNumStehfest::z</a></div><div class="ttdeci">double z</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:20</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a5cb3e03dcbe6fc912c9683ee18f701a3"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a5cb3e03dcbe6fc912c9683ee18f701a3">CInvNumStehfest::ilt</a></div><div class="ttdeci">double ilt</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:20</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a5f3e0d56115e49100450a611a1b5a9d7"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a5f3e0d56115e49100450a611a1b5a9d7">CInvNumStehfest::p</a></div><div class="ttdeci">double p</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:20</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a7c757a4bbb9aaf448630b5c2de3abdf9"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a7c757a4bbb9aaf448630b5c2de3abdf9">CInvNumStehfest::linearmanutencao</a></div><div class="ttdeci">CReservatorioLinearManutencao linearmanutencao</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:29</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a805361a515bdaaaa2530bf720e49784b"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a805361a515bdaaaa2530bf720e49784b">CInvNumStehfest::sum</a></div><div class="ttdeci">double sum</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:20</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_a82a4d861c99c398f69fad9c7fb28af00"><div class="ttname"><a href="class_c_inv_num_stehfest.html#a82a4d861c99c398f69fad9c7fb28af00">CInvNumStehfest::~CInvNumStehfest</a></div><div class="ttdeci">~CInvNumStehfest()</div><div class="ttdoc">Destrutor default.</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:89</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_aa8c9273027c6ebbe9869241f2b00d706"><div class="ttname"><a href="class_c_inv_num_stehfest.html#aa8c9273027c6ebbe9869241f2b00d706">CInvNumStehfest::StehfestLinearInfinito</a></div><div class="ttdeci">double StehfestLinearInfinito(double _xd)</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.cpp:104</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_aaa7c04bbe31e55c6c0093aef0f6f4978"><div class="ttname"><a href="class_c_inv_num_stehfest.html#aaa7c04bbe31e55c6c0093aef0f6f4978">CInvNumStehfest::radialinfinito</a></div><div class="ttdeci">CReservatorioRadialInfinito radialinfinito</div><div class="ttdoc">Declaracoes dos objetos das classes.</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:24</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_ab2238f8e2d5afef9e0d3c24e877b35f0"><div class="ttname"><a href="class_c_inv_num_stehfest.html#ab2238f8e2d5afef9e0d3c24e877b35f0">CInvNumStehfest::linearselado</a></div><div class="ttdeci">CReservatorioLinearSelado linearselado</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:28</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_ac2373c3e446796e131071c43007d76d9"><div class="ttname"><a href="class_c_inv_num_stehfest.html#ac2373c3e446796e131071c43007d76d9">CInvNumStehfest::radialmanutencao</a></div><div class="ttdeci">CReservatorioRadialManutencao radialmanutencao</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:26</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_acb10996e61ce6e444768dd50211e98ff"><div class="ttname"><a href="class_c_inv_num_stehfest.html#acb10996e61ce6e444768dd50211e98ff">CInvNumStehfest::StehfestLinearSelado</a></div><div class="ttdeci">double StehfestLinearSelado(double _xd)</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.cpp:112</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_acb33dfaa99f9e3b8a14d573a8f4f964a"><div class="ttname"><a href="class_c_inv_num_stehfest.html#acb33dfaa99f9e3b8a14d573a8f4f964a">CInvNumStehfest::nn2</a></div><div class="ttdeci">double nn2</div><div class="ttdoc">Declaracao metodos protegidos.</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:20</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_ae927d91f977e97a9100e9d2f34d56bae"><div class="ttname"><a href="class_c_inv_num_stehfest.html#ae927d91f977e97a9100e9d2f34d56bae">CInvNumStehfest::Rd</a></div><div class="ttdeci">double Rd</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:20</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_aedd3219f02d29ebbc0ac4b2e1fb7863e"><div class="ttname"><a href="class_c_inv_num_stehfest.html#aedd3219f02d29ebbc0ac4b2e1fb7863e">CInvNumStehfest::StehfestRadialSelado</a></div><div class="ttdeci">double StehfestRadialSelado(double _TD, double _RD)</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.cpp:50</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_af1380d91407a0783d5f4e9dc498c5804"><div class="ttname"><a href="class_c_inv_num_stehfest.html#af1380d91407a0783d5f4e9dc498c5804">CInvNumStehfest::radialselado</a></div><div class="ttdeci">CReservatorioRadialSelado radialselado</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:25</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_af2efc9175d56e1e70eec6f52100338b9"><div class="ttname"><a href="class_c_inv_num_stehfest.html#af2efc9175d56e1e70eec6f52100338b9">CInvNumStehfest::StehfestRadialInfinito</a></div><div class="ttdeci">double StehfestRadialInfinito(double _TD)</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.cpp:23</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_afadbe522ebab9a4b2c04e16bfe224312"><div class="ttname"><a href="class_c_inv_num_stehfest.html#afadbe522ebab9a4b2c04e16bfe224312">CInvNumStehfest::StehfestRadialManutencao</a></div><div class="ttdeci">double StehfestRadialManutencao(double _TD, double _RD)</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.cpp:77</div></div>
+<div class="ttc" id="aclass_c_inv_num_stehfest_html_afff05769c60a9f64e347f0ef1e5036b7"><div class="ttname"><a href="class_c_inv_num_stehfest.html#afff05769c60a9f64e347f0ef1e5036b7">CInvNumStehfest::CInvNumStehfest</a></div><div class="ttdeci">CInvNumStehfest(double _RD=1, double _L=12)</div><div class="ttdoc">Declaracao metodos publicos.</div><div class="ttdef"><b>Definition:</b> CInvNumStehfest.h:35</div></div>
+<div class="ttc" id="aclass_c_reservatorio_linear_infinito_html"><div class="ttname"><a href="class_c_reservatorio_linear_infinito.html">CReservatorioLinearInfinito</a></div><div class="ttdef"><b>Definition:</b> CReservatorioLinearInfinito.h:8</div></div>
+<div class="ttc" id="aclass_c_reservatorio_linear_manutencao_html"><div class="ttname"><a href="class_c_reservatorio_linear_manutencao.html">CReservatorioLinearManutencao</a></div><div class="ttdoc">Criacao da classe CReservatorioLinearManutencao.h.</div><div class="ttdef"><b>Definition:</b> CReservatorioLinearManutencao.h:7</div></div>
+<div class="ttc" id="aclass_c_reservatorio_linear_selado_html"><div class="ttname"><a href="class_c_reservatorio_linear_selado.html">CReservatorioLinearSelado</a></div><div class="ttdoc">Criacao da classe CReservatorioLinearSelado.h.</div><div class="ttdef"><b>Definition:</b> CReservatorioLinearSelado.h:7</div></div>
+<div class="ttc" id="aclass_c_reservatorio_radial_infinito_html"><div class="ttname"><a href="class_c_reservatorio_radial_infinito.html">CReservatorioRadialInfinito</a></div><div class="ttdoc">Criacao da classe CReservatorioRadialInfinito.h.</div><div class="ttdef"><b>Definition:</b> CReservatorioRadialInfinito.h:9</div></div>
+<div class="ttc" id="aclass_c_reservatorio_radial_manutencao_html"><div class="ttname"><a href="class_c_reservatorio_radial_manutencao.html">CReservatorioRadialManutencao</a></div><div class="ttdoc">Criacao da classe CReservatorioRadialManutencao.h.</div><div class="ttdef"><b>Definition:</b> CReservatorioRadialManutencao.h:8</div></div>
+<div class="ttc" id="aclass_c_reservatorio_radial_selado_html"><div class="ttname"><a href="class_c_reservatorio_radial_selado.html">CReservatorioRadialSelado</a></div><div class="ttdoc">Criacao da classe CReservatorioRadialSelado.h.</div><div class="ttdef"><b>Definition:</b> CReservatorioRadialSelado.h:7</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
+</body>
+</html>

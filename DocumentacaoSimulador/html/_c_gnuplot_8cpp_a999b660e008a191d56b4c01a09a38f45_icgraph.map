@@ -1,0 +1,8 @@
+<map id="stringtok" name="stringtok">
+<area shape="rect" id="node1" title=" " alt="" coords="551,56,623,83"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a3a769e47861d74fa713070ecd857dd17" title="Retorna verdadeiro se a path esta presente." alt="" coords="324,56,503,83"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a08d1e4ec069ec1cb82bb96427d1e0d7f" title="Cria arquivo temporario e retorna seu nome. Usa get_program_path(); e popen();." alt="" coords="179,31,271,57"/>
+<area shape="rect" id="node6" href="$class_gnuplot.html#a8b2a2073044fd58cc6084bf4954e07bc" title="Retorna verdadeiro se a path esta presente." alt="" coords="173,81,276,108"/>
+<area shape="rect" id="node4" href="$class_gnuplot.html#a187eb517b362cf379492fe7f1621ee50" title="Construtor, seta o estilo do grafico na construcao." alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node5" href="$class_gnuplot.html#a1f0052a04c1259e2c008435de407959f" title="Cria arquivo temporario e retorna seu nome. Usa get_program_path(); e popen();." alt="" coords="19,56,111,83"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="Gnuplot::showonscreen" name="Gnuplot::showonscreen">
+<area shape="rect" id="node1" title="Mostrar na tela ou escrever no arquivo, seta o tipo de terminal para terminal_std." alt="" coords="767,107,925,133"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a08d1e4ec069ec1cb82bb96427d1e0d7f" title="Cria arquivo temporario e retorna seu nome. Usa get_program_path(); e popen();." alt="" coords="590,56,682,83"/>
+<area shape="rect" id="node5" href="$class_gnuplot.html#a9aedfe8371083a1a3ac2b9493810049c" title=" " alt="" coords="574,107,698,133"/>
+<area shape="rect" id="node7" href="$class_gnuplot.html#aada22f547a0a9ac26adea4a4ec836ea4" title="Mostrar na tela ou escrever no arquivo, seta o tipo de terminal para terminal_std." alt="" coords="553,259,719,285"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a187eb517b362cf379492fe7f1621ee50" title="Construtor, seta o estilo do grafico na construcao." alt="" coords="382,5,502,32"/>
+<area shape="rect" id="node4" href="$class_gnuplot.html#a1f0052a04c1259e2c008435de407959f" title="Cria arquivo temporario e retorna seu nome. Usa get_program_path(); e popen();." alt="" coords="396,56,488,83"/>
+<area shape="rect" id="node6" href="$class_gnuplot.html#ad909ddbdd0cd8da2a11d60b7f3ee4869" title=" " alt="" coords="380,107,504,133"/>
+<area shape="rect" id="node8" href="$class_c_simulador.html#aba02a35f4346aa96738ea213262d71b6" title=" " alt="" coords="382,157,502,184"/>
+<area shape="rect" id="node11" href="$class_c_simulador.html#aa6bf8aa96f4c171a7589dd84efae6dda" title=" " alt="" coords="379,208,505,235"/>
+<area shape="rect" id="node12" href="$class_c_simulador.html#a63f41e4cd99bdc5de2447527af1bf455" title=" " alt="" coords="379,259,505,285"/>
+<area shape="rect" id="node13" href="$class_c_simulador.html#a02b9bca878541e9d38b16fa49220b613" title=" " alt="" coords="379,309,505,336"/>
+<area shape="rect" id="node14" href="$class_c_simulador.html#af27576d1e596432c95d1a40bb4c0fdaa" title=" " alt="" coords="379,360,505,387"/>
+<area shape="rect" id="node15" href="$class_gnuplot.html#a3986669a73f911715d0baa4ab83d416c" title="Salva sessao do gnuplot para um arquivo filename, usando o terminal_type e algum flag adicional Ex: g..." alt="" coords="383,411,501,437"/>
+<area shape="rect" id="node9" href="$class_c_simulador.html#a926d232a6ba99abdfe017b4ed012e72e" title="Funcoes auxiliares para plotar com retorno vazio." alt="" coords="197,259,329,285"/>
+<area shape="rect" id="node10" href="$main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="51,259,101,285"/>
+<area shape="rect" id="node16" href="$class_gnuplot.html#a0808fae92ce7e38af3bed8897748acf0" title="Salva sessao do gnuplot para um arquivo jpg, nome do arquivo sem extensao Depois retorna para modo te..." alt="" coords="195,385,331,412"/>
+<area shape="rect" id="node18" href="$class_gnuplot.html#a14c986c74017988acd306f42005c0fb7" title="Salva sessao do gnuplot para um arquivo png, nome do arquivo sem extensao Depois retorna para modo te..." alt="" coords="196,436,329,463"/>
+<area shape="rect" id="node17" href="$class_gnuplot.html#a190d66f0efa9cf3a90633543f5a59328" title="Salva sessao do gnuplot para um arquivo jpg, nome do arquivo sem extensao Depois retorna para modo te..." alt="" coords="5,385,147,412"/>
+<area shape="rect" id="node19" href="$class_gnuplot.html#aaa38f9e689fca36da83a660f4b9cf36b" title="Salva sessao do gnuplot para um arquivo png, nome do arquivo sem extensao Depois retorna para modo te..." alt="" coords="7,436,145,463"/>
+</map>

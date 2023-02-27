@@ -1,0 +1,5 @@
+<map id="Gnuplot::YLogscale" name="Gnuplot::YLogscale">
+<area shape="rect" id="node1" title="Ativa escala logaritma do eixo y (logscale nao e setado por default)." alt="" coords="5,5,141,32"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a201a802d2f27fece0d39809c4eb3bce0" title="Ativa escala logaritma do eixo y (logscale nao e setado por default)." alt="" coords="189,5,344,32"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="392,5,492,32"/>
+</map>

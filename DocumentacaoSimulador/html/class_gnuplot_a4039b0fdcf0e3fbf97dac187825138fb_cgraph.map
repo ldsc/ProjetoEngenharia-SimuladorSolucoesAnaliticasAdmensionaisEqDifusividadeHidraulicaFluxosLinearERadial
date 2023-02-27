@@ -1,0 +1,4 @@
+<map id="Gnuplot::Terminal" name="Gnuplot::Terminal">
+<area shape="rect" id="node1" title="Opcional: Seta terminal padrao (standart), usado para visualizacao dos graficos. Para retornar para t..." alt="" coords="5,5,129,32"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a21feba7a3916708b742c3dc25850ab2f" title="Opcional: Seta terminal padrao (standart), usado para visualizacao dos graficos. Valores padroes (def..." alt="" coords="177,5,348,32"/>
+</map>

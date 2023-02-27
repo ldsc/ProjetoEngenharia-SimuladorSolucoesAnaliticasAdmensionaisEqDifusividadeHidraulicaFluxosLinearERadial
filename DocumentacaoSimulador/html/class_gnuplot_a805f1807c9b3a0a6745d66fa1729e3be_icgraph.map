@@ -1,0 +1,4 @@
+<map id="Gnuplot::unset_surface" name="Gnuplot::unset_surface">
+<area shape="rect" id="node1" title="Desativa a visualizacao da superficie (para plotagen 3d)." alt="" coords="172,5,328,32"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#ad5367a586328205bc451a958db705274" title="Ativa/Desativa a visualizacao da superficie (para plotagen 3d)." alt="" coords="5,5,124,32"/>
+</map>

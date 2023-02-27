@@ -1,0 +1,7 @@
+<map id="Gnuplot::SaveTo" name="Gnuplot::SaveTo">
+<area shape="rect" id="node1" title="Salva sessao do gnuplot para um arquivo filename, usando o terminal_type e algum flag adicional Ex: g..." alt="" coords="5,29,123,56"/>
+<area shape="rect" id="node2" href="$class_gnuplot.html#a07607803ede8dd5416906df0a1924fc5" title="Envia comando para o gnuplot." alt="" coords="591,29,691,56"/>
+<area shape="rect" id="node3" href="$class_gnuplot.html#ae4f110479cfd8dc9b1b3d45809fb05e0" title=" " alt="" coords="410,29,517,56"/>
+<area shape="rect" id="node4" href="$class_gnuplot.html#aada22f547a0a9ac26adea4a4ec836ea4" title="Mostrar na tela ou escrever no arquivo, seta o tipo de terminal para terminal_std." alt="" coords="171,80,336,107"/>
+<area shape="rect" id="node5" href="$class_gnuplot.html#a356d2faaa79f08d13fec9718b776b28d" title="Mostrar na tela ou escrever no arquivo, seta o tipo de terminal para terminal_std." alt="" coords="384,80,543,107"/>
+</map>
